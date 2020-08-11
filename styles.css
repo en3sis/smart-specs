@@ -1,0 +1,71 @@
+.js-component-style {
+  margin: 50px;
+  padding: 20px;
+  border-bottom: 1px solid #efefef;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul {
+  margin: 10px 0;
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.js-component-specs {
+  display: flex;
+}
+
+.js-component-marings {
+  margin: 10px 100px;
+  width: 150px;
+  height: 150px;
+  background: #f0ca90;
+  position: relative;
+}
+
+.js-component-marings:after {
+  content: 'margins';
+  position: absolute;
+  left: 5px;
+}
+
+.js-component-marings .top {
+  position: absolute;
+  top: -20px;
+  left: 40%;
+}
+
+.js-component-marings .right {
+  position: absolute;
+  top: 45%;
+  right: -40px;
+}
+
+.js-component-marings .bottom {
+  position: absolute;
+  bottom: -20px;
+  right: 45%;
+}
+
+.js-component-marings .left {
+  position: absolute;
+  top: 45%;
+  left: -40px;
+}
+
+.js-code {
+  display: flex;
+  min-width: 180px;
+  justify-content: space-around;
+}
+
+button {
+  margin: 10px 15px;
+}
